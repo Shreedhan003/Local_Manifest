@@ -8,4 +8,7 @@
   <project path="vendor/xiaomi/lavender" name="Shreedhan003-vendor_xiaomi_lavender-vos" remote="Shreedhan003" revision="12l" />
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="Shreedhan003" revision="arrow-12.1" />
       
+      <remove-project name="vendor_voltage" />
+      <project path="vendor/voltage" name="vendor_voltage" remote="Shreedhan003" />
+      
 </manifest>
