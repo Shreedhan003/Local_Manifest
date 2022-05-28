@@ -4,12 +4,11 @@
       <remote name="Shreedhan003"
           fetch="https://github.com/Shreedhan003" />
      
-      <remote name="stormbreaker-project"
-          fetch="https://github.com/stormbreaker-project" /> 
+      <remote name="projects-nexus"
+          fetch="https://github.com/projects-nexus" />
       
   <project path="device/xiaomi/lavender" name="Shreedhan003-device_xiaomi_lavender-vos" remote="Shreedhan003" revision="test"/>
   <project path="vendor/xiaomi/lavender" name="Shreedhan003-vendor_xiaomi_lavender-vos" remote="Shreedhan003" revision="12l" />
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" /> 
-
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="projects-nexus" revision="qti" />
       
 </manifest>
