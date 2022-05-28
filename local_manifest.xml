@@ -4,13 +4,12 @@
       <remote name="Shreedhan003"
           fetch="https://github.com/Shreedhan003" />
      
-      <remote name="vos"
-          fetch="https://github.com/VoltageOS-Devices" />
+      <remote name="stormbreaker-project"
+          fetch="https://github.com/stormbreaker-project" /> 
       
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="vos" revision="12l"/>
-  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="vos" revision="12l"/>
-  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="vos" revision="12" />
-  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="vos" revision="12l"/>
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_lavender" remote="vos" revision="12l" />
+  <project path="device/xiaomi/lavender" name="Shreedhan003-device_xiaomi_lavender-vos" remote="Shreedhan003" revision="test"/>
+  <project path="vendor/xiaomi/lavender" name="Shreedhan003-vendor_xiaomi_lavender-vos" remote="Shreedhan003" revision="12l" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" /> 
+
       
 </manifest>
