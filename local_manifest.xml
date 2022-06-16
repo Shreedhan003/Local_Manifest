@@ -6,10 +6,18 @@
 
       <remote name="shree"
           fetch="https://github.com/Shreedhan003" />
+     
+     <remote name="los"
+          fetch="https://github.com/LineageOS" />
       
   <project path="device/xiaomi/lavender" name="device_vos_lavender" remote="shree" revision="12l"/>
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="vos" revision="12" />
   <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="vos" revision="12l"/>
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_lavender" remote="vos" revision="12l" />
+     
+     <!-- Replacements -->
+     
+  <remove-project name="LineageOS/android_hardware_oplus" />
+  <project path="hardware/oplus" name="hardware_oplus" remote="los" revision="lineage-19.1"/>
   
 </manifest>
