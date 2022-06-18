@@ -15,7 +15,7 @@
      
      <!-- Replacements -->
      
-  <remove-project name="LineageOS/android_hardware_oplus" />
-  <project path="hardware/oplus" name="hardware_oplus" remote="los" revision="lineage-19.1"/>
+  <remove-project name="android_hardware_oplus" />
+  <project path="hardware/oplus" name="android_hardware_oplus" remote="los" revision="lineage-19.1"/>
   
 </manifest>
