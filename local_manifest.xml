@@ -2,20 +2,21 @@
 <manifest>
 
       <remote name="shree"
-          fetch="https://github.com/Shreedhan003" />
+          fetch="https://github.com/ShreedhanVar003" />
+          
+      <remote name="pex"
+          fetch="https://github.com/PixelExtended-Devices" />
 
-      <remote name="projects-nexus"
-          fetch="https://github.com/projects-nexus" />
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="shree" revision="12l" />
+  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="shree" revision="12l" />
 
-      <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="shree" revision="12l" />
+  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="shree" revision="12l" />
 
-  <project path="device/xiaomi/lavender" name="android_device_lavender" remote="shree" revision="syberia" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_lavender" remote="shree" revision="12l" />
+  
+  <remove-project name="LineageOS/android_hardware_oplus"/>
+  <project path="hardware/oplus" name="hardware_xiaomi" remote="pex" revision="snow_delano"/>
 
-  <project path="vendor/xiaomi/lavender" name="android_vendor_lavender" remote="shree" revision="syberia" />
-
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="projects-nexus" revision="qti" />
-
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
