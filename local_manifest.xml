@@ -14,9 +14,5 @@
   <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="shree" revision="12l" />
 
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_lavender" remote="shree" revision="12l" />
-  
-  <remove-project name="LineageOS/android_hardware_oplus"/>
-  <project path="hardware/oplus" name="hardware_xiaomi" remote="pex" revision="snow_delano"/>
-
 
 </manifest>
