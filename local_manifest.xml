@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-      <remote name="shree"
-          fetch="https://github.com/ShreedhanVar003" />
-      
-      <remote name="shreedhan"
+  <remote name="shree"
           fetch="https://github.com/Shreedhan003" />
-      
-      <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" /> 
-
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="shree" revision="12l"/>
-  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="shree" revision="12l"/>
-  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="shree" revision="12l" />
-  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="shree" revision="12l"/>
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="shreedhan" revision="arrow-12.1" />
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
-
+  
+  <remote name="stormbreaker-project"
+          fetch="https://github.com/stormbreaker-project" />     
+  
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />                 
+  
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="shree" revision="12.1" /> 
+  
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="shree" revision="12.1" />
+  
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" />
+  
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+  
 </manifest>
