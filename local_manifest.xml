@@ -9,7 +9,7 @@
   
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="shree" revision="12.1" /> 
   
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="shree" revision="lavender-user-10-QKQ1.190910.002-V12.0.3.0.QFGEUXM-V12.0.3.0.QFGEUXM-release-keys-Mon-Jan-18-21-46-49-WIB-2021" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="shree" revision="12l-newcam" />
   
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="shree" revision="arrow-12.1" />
   
