@@ -10,11 +10,11 @@
   <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />                 
   
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_sdm660-common" remote="var" revision="decommonised" /> 
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_sdm660-common" remote="var" revision="newcam" /> 
   
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="shree" revision="12l-newcam" />
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_sdm660-common" remote="var" revision="12l" />
   
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="shree" revision="arrow-12.1" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="shree" revision="oldcam" />
   
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
   
