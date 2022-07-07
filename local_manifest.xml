@@ -10,7 +10,7 @@
   <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />                 
   
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_sdm660-common" remote="var" revision="newcam" /> 
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_sdm660-common" remote="var" revision="oldcam" /> 
   
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_sdm660-common" remote="var" revision="de" />
     
