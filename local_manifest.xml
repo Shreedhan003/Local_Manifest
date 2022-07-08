@@ -9,14 +9,10 @@
           
   <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />                 
-  
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="var" revision="12l" /> 
-  
-  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="var" revision="12l" /> 
-  
-  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="var" revision="12l" />
-  
-  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="var" revision="12l" /> 
+    
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_sdm660-common" remote="var" revision="newtree" /> 
+    
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_sdm660-common" remote="var" revision="de" /> 
   
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="shree" revision="oldcam" />
   
