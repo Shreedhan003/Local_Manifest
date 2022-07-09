@@ -16,6 +16,6 @@
     
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="shree" revision="oldcam" />
   
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
   
 </manifest>
