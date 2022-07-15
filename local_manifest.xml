@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="shree"
-          fetch="https://github.com/Shreedhan003" />
   
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
-  
-    <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />
-            
+           
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l" /> 
   
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l" />
     
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="shree" revision="oldcam" />
-  
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
-  
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l" />
+    
 </manifest>
