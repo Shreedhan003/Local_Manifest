@@ -3,11 +3,16 @@
   
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
+  
+  <remote name="anx"
+          fetch="https://gitlab.com/madhavbiju" />
            
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l" /> 
   
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l" />
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l" />
+  
+  <project path="vendor/aeonax/ANXCamera" name="vendor_aeonax_anxcamera" remote="anx" revision="twelve" />
     
 </manifest>
