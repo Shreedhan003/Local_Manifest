@@ -14,7 +14,7 @@
   
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l" />
     
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l-newcam" />  
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l-NewCam" />  
   
     <!-- Replacements -->
       
