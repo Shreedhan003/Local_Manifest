@@ -4,10 +4,10 @@
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
            
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l-NewCam" /> 
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l" /> 
   
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l-NewCam" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l" />
     
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l-NewCam" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l" />
     
 </manifest>
