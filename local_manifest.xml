@@ -13,9 +13,5 @@
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l" />
 
-    <!-- Replacements -->
 
-  <remove-project name="packages_apps_Settings"/>
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="shree" revision="12l"/>
-  
 </manifest>
