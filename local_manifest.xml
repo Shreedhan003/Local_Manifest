@@ -4,14 +4,16 @@
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
   
-  <remote name="shree"
-          fetch="https://github.com/Shreedhan003" />
+ <remote name="kdrag0n" 
+              fetch="https://github.com/kdrag0n" />
            
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l" /> 
   
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l" />
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l" />
+  
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
 
 
 </manifest>
