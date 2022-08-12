@@ -10,11 +10,11 @@
   <remote name="od"
           fetch="https://github.com/OdSazib" />
            
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l-staging" /> 
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l" /> 
   
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l" />
     
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660-4.19" remote="shree" revision="sapphire" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l" />
   
   <!-- Replacements -->
   
