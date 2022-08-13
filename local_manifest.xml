@@ -3,12 +3,6 @@
   
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
-  
-  <remote name="shree"
-          fetch="https://github.com/Shreedhan003" />
-  
-  <remote name="od"
-          fetch="https://github.com/OdSazib" />
            
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l" /> 
   
@@ -16,5 +10,4 @@
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l" />
   
-
 </manifest>
