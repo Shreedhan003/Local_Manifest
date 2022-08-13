@@ -16,15 +16,5 @@
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l" />
   
-  <!-- Replacements -->
-  
-
-  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" remote="od" revision="12-caf-sdm660"/>
-  
-
-  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" remote="od" revision="12-caf-sdm660"/>
-
-
-  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" remote="od" revision="12-caf-sdm660"/>
 
 </manifest>
