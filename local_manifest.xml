@@ -15,7 +15,7 @@
   
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l" />
     
-  <project path="kernel/xiaomi/lavender" name="msm" remote="shree" revision="rebase" />
+  <project path="kernel/xiaomi/lavender" name="msm" remote="shree" revision="12l" />
 
   <!-- Replacements -->
 
