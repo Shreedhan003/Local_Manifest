@@ -5,24 +5,24 @@
           fetch="https://github.com/VoltageOS-Devices" />
   
   <remote name="od"
-          fetch="https://github.com/OdSazib" />
+          fetch="https://github.com/SDM660-lavender" />
   
   <remote name="shree"
-          fetch="https://github.com/Shreedhan003" />
+          fetch="https://github.com/ArrowOS-Devices" />
   
            
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l-staging" /> 
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l" /> 
   
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l" />
     
-  <project path="kernel/xiaomi/lavender" name="msm" remote="shree" revision="12l" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="shree" revision="arrow-13.0" />
 
   <!-- Replacements -->
 
-  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" remote="od" revision="12-caf-sdm660"/>
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="od" revision="12-caf_4.19"/>
   
-  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" remote="od" revision="12-caf-sdm660"/>
+  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="od" revision="12-caf_4.19"/>
   
-  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" remote="od" revision="12-caf-sdm660"/>  
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="od" revision="12-caf_4.19"/>  
   
 </manifest>
