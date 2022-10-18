@@ -2,7 +2,7 @@
 <manifest>
   
   <remote name="vos"
-          fetch="https://github.com/VoltageOS-Devices" />
+          fetch="https://github.com/ShreedhanVar003" />
   
   <remote name="od"
           fetch="https://github.com/SDM660-lavender" />
@@ -10,12 +10,17 @@
   <remote name="shree"
           fetch="https://github.com/ArrowOS-Devices" />
   
-           
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l" /> 
+  <remote name="kdrag0n" 
+              fetch="https://github.com/kdrag0n" />
   
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l" />
+           
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender_419" remote="vos" revision="aosp" /> 
+  
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender_419" remote="vos" revision="12l" />
     
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="shree" revision="arrow-13.0" />
+  
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
 
   <!-- Replacements -->
 
