@@ -13,8 +13,11 @@
   <remote name="aod"
            fetch="https://github.com/ArrowOS-Devices" />
 
-        <remote name="aop"
+  <remote name="aop"
            fetch="https://gitlab.com/arrowos-project" />
+  
+  <remote name="kdrag0n" 
+              fetch="https://github.com/kdrag0n" />
   
   <!-- Trees -->
            
@@ -30,6 +33,8 @@
         
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="aop" revision="master" />
 
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
+  
 <!--
    Replacements 
 
