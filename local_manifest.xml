@@ -4,8 +4,8 @@
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
   
-  <remote name="od"
-          fetch="https://github.com/SDM660-lavender" />
+  <remote name="arrow"
+          fetch="hhttps://github.com/ArrowOS" />
   
   <remote name="shree"
           fetch="https://github.com/Shreedhan003" />
@@ -35,15 +35,12 @@
 
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
   
-<!--
-   Replacements 
+  <!--Replacements -->
 
-  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="od" revision="12-caf_4.19"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.1-caf-msm8998"/>
   
-  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="od" revision="12-caf_4.19"/>
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.1-caf-msm8998"/>
   
-  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="od" revision="12-caf_4.19"/>  
-
--->
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.1-caf-msm8998"/>  
 
 </manifest>
