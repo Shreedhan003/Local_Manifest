@@ -5,7 +5,7 @@
           fetch="https://github.com/VoltageOS-Devices" />
   
   <remote name="arrow"
-          fetch="hhttps://github.com/ArrowOS" />
+          fetch="https://github.com/ArrowOS" />
   
   <remote name="shree"
           fetch="https://github.com/Shreedhan003" />
