@@ -16,8 +16,8 @@
   <remote name="aop"
            fetch="https://gitlab.com/arrowos-project" />
   
-  <remote name="kdrag0n" 
-              fetch="https://github.com/kdrag0n" />
+  <remote name="varun" 
+              fetch="https://gitlab.com/varunhardgamer" />
   
   <!-- Trees -->
            
@@ -33,7 +33,8 @@
         
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="aop" revision="master" />
 
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
+  <remove-project name="varunhardgamer/trb_clang"/>
+  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" clone-depth="1" revision="14" remote="varun" />  
   
   <!--Replacements -->
   
