@@ -21,9 +21,9 @@
   
   <!-- Trees -->
            
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="12l-4.4" /> 
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="13-4.4" /> 
   
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l-4.4" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="13-4.4" />
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l" />
 
@@ -39,12 +39,12 @@
   <!--Replacements -->
   
   <remove-project name="hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="ronin" revision="12x"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="ronin" revision="13x"/>
   
   <remove-project name="hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="ronin" revision="12x"/>
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="ronin" revision="13x"/>
   
   <remove-project name="hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="ronin" revision="12x"/>  
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="ronin" revision="13x"/>  
 
 </manifest>
