@@ -19,8 +19,6 @@
   <remote name="varun" 
               fetch="https://gitlab.com/varunhardgamer" />
   
-  <remote name="thick" 
-              fetch="https://github.com/karthik1896" />
   
   <!-- Trees -->
            
@@ -50,12 +48,5 @@
   <remove-project name="hardware_qcom_media"/>
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="ronin" revision="13x"/>
   
-  <!--Temp. Replacements-->
-  
-  <remove-project name="frameworks_base"/>
-  <project path="frameworks/base" name="frameworks_base" remote="thick" revision="13"/>
-  
-  <remove-project name="packages_apps_Settings"/>
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="thick" revision="13"/>
 
 </manifest>
