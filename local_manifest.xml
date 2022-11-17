@@ -7,8 +7,8 @@
   <remote name="sdm660"
           fetch="https://github.com/SDM660-lavender" />
   
-  <remote name="shree"
-          fetch="https://github.com/Shreedhan003" />
+  <remote name="clarence"
+          fetch="https://github.com/clarencelol" />
   
   <remote name="aod"
            fetch="https://github.com/ArrowOS-Devices" />
@@ -40,13 +40,13 @@
   <!--Replacements -->
   
   <remove-project name="hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="ronin" revision="13x"/>
+  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" remote="clarence" revision="sdm660-4.19-12"/>
   
   <remove-project name="hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="ronin" revision="13x"/>
+  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" remote="clarence" revision="sdm660-4.19-12"/>
   
   <remove-project name="hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="ronin" revision="13x"/>
+  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" remote="clarence" revision="sdm660-4.19-12"/>
   
 
 </manifest>
