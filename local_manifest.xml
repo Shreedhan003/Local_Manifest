@@ -4,8 +4,8 @@
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
   
-  <remote name="ronin"
-          fetch="https://github.com/RONIN808" />
+  <remote name="sdm660"
+          fetch="https://github.com/SDM660-lavender" />
   
   <remote name="shree"
           fetch="https://github.com/Shreedhan003" />
@@ -19,14 +19,14 @@
   <remote name="varun" 
               fetch="https://gitlab.com/varunhardgamer" />
   
-  
+  https://github.com/SDM660-lavender
   <!-- Trees -->
            
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="13-4.4" /> 
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="13" /> 
   
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="13-4.4" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="13" />
     
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="12l-newcam" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_southwest-4.19" remote="sdm660" revision="main" />
 
   <!-- Clang -->
   
