@@ -19,7 +19,6 @@
   <remote name="varun" 
               fetch="https://gitlab.com/varunhardgamer" />
   
-  https://github.com/SDM660-lavender
   <!-- Trees -->
            
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="13" /> 
