@@ -19,6 +19,9 @@
   <remote name="varun" 
               fetch="https://gitlab.com/varunhardgamer" />
   
+  <remote name="ImSurajxD"
+  fetch="https://gitlab.com/ImSurajxD" /> 
+  
   <!-- Trees -->
            
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="shree" revision="los" /> 
@@ -33,7 +36,9 @@
         
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="aop" revision="master" />
 
-  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" clone-depth="1" revision="14" remote="varun" />  
+  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" clone-depth="1" revision="14" remote="varun" />
+  
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
   
   <!--Replacements -->
   
