@@ -10,6 +10,9 @@
   <remote name="aop"
            fetch="https://gitlab.com/arrowos-project" />
   
+  <remote name="lab" 
+          fetch="https://gitlab.com"/>
+  
   <!-- Trees -->
            
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="13-4.4" /> 
@@ -23,5 +26,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="aod" revision="arrow-11.0" />
         
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="aop" revision="master" />
+  
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
   
 </manifest>
