@@ -4,6 +4,9 @@
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
   
+  <remote name="shree"
+          fetch="https://github.com/Shreedhan003" />
+  
   <remote name="aod"
            fetch="https://github.com/ArrowOS-Devices" />
 
@@ -15,7 +18,7 @@
   
   <!-- Trees -->
            
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="13-4.4" /> 
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="shree" revision="13-4.4" /> 
   
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="13-4.4" />
     
