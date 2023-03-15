@@ -4,20 +4,11 @@
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
   
-  <remote name="shree"
-          fetch="https://github.com/ShreedhanVar003" />
-  
-  <remote name="thik"
-          fetch="https://github.com/karthik1896" />
-  
   <remote name="aod"
            fetch="https://github.com/ArrowOS-Devices" />
 
   <remote name="aop"
            fetch="https://gitlab.com/arrowos-project" />
-  
-  <remote name="varun" 
-              fetch="https://gitlab.com/varunhardgamer" />
   
   <!-- Trees -->
            
@@ -25,27 +16,12 @@
   
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="13-4.4" />
     
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="13-qcam" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="rebase" />
 
   <!-- Clang -->
   
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="aod" revision="arrow-11.0" />
         
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="aop" revision="master" />
-
-  <remove-project name="varunhardgamer/trb_clang"/>
-  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" clone-depth="1" revision="14" remote="varun" />  
   
-  <!--Replacements 
-  
-  <remove-project name="hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="thik" revision="13"/>
-  
-  <remove-project name="hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="thik" revision="13"/>
-  
-  <remove-project name="hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="thik" revision="13"/>
-  -->
-
 </manifest>
