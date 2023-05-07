@@ -7,14 +7,22 @@
       <remote name="pix"
           fetch="https://github.com/pix106" />
       
+      <remote name="aod"
+           fetch="https://github.com/ArrowOS-Devices" />
+
+      <remote name="aop"
+           fetch="https://gitlab.com/arrowos-project" />
+  
+      <remote name="lab" 
+          fetch="https://gitlab.com"/>
+      
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-pix106" remote="sharif" revision="voltage13"/>
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-pix106" remote="sharif" revision="13" />
   <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common-pix106" remote="sharif" revision="13-oldblobs" />
   <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common-pix106" remote="sharif" revision="13-oldblobs" />
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19" remote="pix" revision="main" />
   
-  <!--Replacements -->
-  
+  <!--Replacements --> 
   <remove-project name="hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_display" remote="pix"/>
   
@@ -23,5 +31,11 @@
   
   <remove-project name="hardware_qcom_media"/>
   <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_media" remote="pix"/>
+      
+ <!-- Clang -->  
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="aod" revision="arrow-11.0" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="aop" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
+  
   
 </manifest>
