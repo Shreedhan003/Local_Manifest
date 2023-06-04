@@ -15,9 +15,9 @@
   
   <!-- Trees -->
            
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="shree" revision="aosp" /> 
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="shree" revision="backup" /> 
   
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l-4.4" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="13-4.4" />
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="rebase" />
 
