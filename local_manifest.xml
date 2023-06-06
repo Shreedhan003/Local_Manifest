@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+   <remote name="voltage"
+          fetch="https://github.com/VoltageOS" />
+  
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
   
@@ -20,6 +23,8 @@
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="12l-4.4" />
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="rebase" />
+  
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage" revision="rebase" />
 
   <!-- Requirements -->
 
