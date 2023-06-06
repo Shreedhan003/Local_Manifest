@@ -24,7 +24,7 @@
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="rebase" />
   
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage" revision="rebase" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage" revision="13" />
 
   <!-- Requirements -->
 
