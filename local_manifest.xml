@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-   <!-- remote name="voltage"
-          fetch="https://github.com/VoltageOS" /-->
+   <remote name="thick"
+          fetch="https://github.com/karthik1896" />
   
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
@@ -27,6 +27,9 @@
   <!-- project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage" revision="13" / -->
 
   <!-- Requirements -->
+  
+  <remove-project name="hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="thick" revision="13"/>
 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   
