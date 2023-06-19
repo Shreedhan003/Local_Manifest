@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-   <!-- remote name="thick"
-          fetch="https://github.com/karthik1896" /-->
+   <remote name="voltage"
+          fetch="https://github.com/VoltageOS" />
   
   <remote name="vos"
           fetch="https://github.com/VoltageOS-Devices" />
@@ -24,7 +24,7 @@
     
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="13-4.4" />
   
-  <!-- project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage" revision="13" / -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage" revision="13" />
 
   <!-- Requirements -->
   
