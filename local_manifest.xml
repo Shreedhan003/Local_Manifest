@@ -30,7 +30,10 @@
   
   <!-- remove-project name="hardware_qcom_display"/>
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="thick" revision="13"/ -->
-
+  
+  <remove-project name="bionic" />
+  <project path="bionic" name="bionic" remote="shree" revision="thirteen" clone-depth="1" />
+  
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
