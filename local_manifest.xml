@@ -20,15 +20,17 @@
               fetch="https://github.com/kdrag0n" />
   
   <!-- Trees -->     
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="shree" revision="13" /> 
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="staging" />
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_southwest-4.19" remote="pix" revision="main" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="vos" revision="13-4.4" /> 
+  
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="vos" revision="13-4.4" />
+    
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="vos" revision="13-4.4" />
   <!--project path="hardware/xiaomi" name="hardware_xiaomi" remote="voltage" revision="13" /-->
   
   <!--Requirements --> 
-  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_display" remote="pix"/>
+  <!--project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_display" remote="pix"/>
   <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_audio" remote="pix"/>
-  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_media" remote="pix"/>
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_media" remote="pix"/-->
 
   <!--Clangs --> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
